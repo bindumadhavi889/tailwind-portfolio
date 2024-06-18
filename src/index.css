@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+  .align-element{
+    @apply mx-auto max-w-7xl px-8
+  }
+  .icon{
+    @apply h-8 w-8 text-slate-500 hover:text-black duration-300
+  }
+}
